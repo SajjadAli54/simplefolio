@@ -149,7 +149,7 @@ function populateBadges() {
   const badgesDiv = document.getElementById("myBadges");
   for (const badge of badges) {
     const badgeIcon = `
-    <a href=${badge.href}>
+    <a class="col" href=${badge.href}>
         <img
             src=${badge.src}
             alt=${badge.alt}/>
