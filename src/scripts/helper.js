@@ -47,6 +47,7 @@ const projects = [
 const badges = [
   {
     href: "https://github.com/SajjadAli54/",
+    icon: "fab fa-github",
     src:
       "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white",
     alt: "Github Badge",
@@ -144,7 +145,7 @@ function populateBadges() {
   const badgesDiv = document.getElementById("myBadges");
   for (const badge of badges) {
     const badgeIcon = `
-    <a class="col-lg-2 col-sm-6" href=${badge.href}>
+    <a href=${badge.href}>
         <img
             src=${badge.src}
             alt=${badge.alt}/>
