@@ -64,21 +64,16 @@ const badges = [
     alt: "Youtube Badge",
   },
   {
-    href: "https://twitter.com/ali_imsajjad",
+    href: "https://www.hackerrank.com/sajjad_bscsf19",
     src:
-      "https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white",
+      "https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white",
+    alt: "HackerRank Badge",
   },
   {
     href: "https://www.kaggle.com/sajjadali786",
     src:
       "https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white",
     alt: "Kaggle Badge",
-  },
-  {
-    href: "https://www.hackerrank.com/sajjad_bscsf19",
-    src:
-      "https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white",
-    alt: "HackerRank Badge",
   },
   {
     href: "https://dev.to/sajjadali54",
@@ -149,7 +144,7 @@ function populateBadges() {
   const badgesDiv = document.getElementById("myBadges");
   for (const badge of badges) {
     const badgeIcon = `
-    <a class="col" href=${badge.href}>
+    <a class="col-lg-2 col-sm-6" href=${badge.href}>
         <img
             src=${badge.src}
             alt=${badge.alt}/>
