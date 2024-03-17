@@ -20,10 +20,10 @@ const setPosts = (posts) => {
 
 const getPost = (post) => {
     return `
-    <div class="card" width="18rem">
+    <div class="card col-4" width="18rem">
         <img class="card-img-top" src=${post.cover_image} width="16rem" alt=${post.slug}>
         <div class="card-body">
-            <h5 class="card-title">${post.title}</h5>
+            <h3 class="card-title">${post.title}</h3>
             <p class="card-text">${post.tags}</p>
             <a href=${post.url} class="btn btn-primary">Read Article</a>
         </div>
