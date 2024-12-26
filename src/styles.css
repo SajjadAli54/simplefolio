@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    margin-bottom: 30px;
+  }
+
+  .section-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .project-card {
+    transition: transform 0.2s;
+  }
+
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+
+  .badge-container img {
+    margin: 5px;
+  }
+
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+
+  .card img {
+    height: 150px;
+    object-fit: cover;
+  }
+
+  #certifications img {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
