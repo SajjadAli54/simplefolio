@@ -68,7 +68,7 @@ const projects = [
       "It is a review site related to Food, Hotel and Tour sites. Developed as a web engineering semester project using React.js.",
     live: "https://sajjadali54.github.io/countrycharm/",
     href: "https://github.com/SajjadAli54/countrycharm",
-    src: "./assets/projects/countrycharm.png",
+    src: "file:///C:/Users/SajjadAli/Documents/Codes/Personal/Web/simplefolio/src/assets/projects/countrycharm.png",
     // src: "https://github-readme-stats.vercel.app/api/pin/?username=SajjadAli54&repo=countrycharm&theme=dark",
   },
   {
